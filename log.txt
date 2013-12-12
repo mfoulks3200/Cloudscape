@@ -27,3 +27,117 @@
 [16:16:49 12/12/2013] [Log] Frontend started listening
 [16:16:53 12/12/2013] [Log] Frontend request for index.html received from 127.0.0.1
 [16:16:53 12/12/2013] [Log] Frontend request for index.html from 127.0.0.1 fufilled
+[16:22:06 12/12/2013] [Log] Frontend Server Starting on port 80
+[16:22:06 12/12/2013] [Log] Frontend started listening
+[16:22:06 12/12/2013] [Log] Backend Server Starting on port 2121
+[16:22:06 12/12/2013] [Log] Backend started listening
+[16:22:33 12/12/2013] [Log] Frontend Server Starting on port 80
+[16:22:33 12/12/2013] [Log] Frontend started listening
+[16:22:33 12/12/2013] [Log] Backend Server Starting on port 2121
+[16:22:33 12/12/2013] [Log] Backend started listening
+[16:22:35 12/12/2013] [Log] Frontend request for index.html received from 127.0.0.1
+[16:22:50 12/12/2013] [Log] Frontend Server Starting on port 80
+[16:22:50 12/12/2013] [Log] Frontend started listening
+[16:22:50 12/12/2013] [Log] Backend Server Starting on port 2121
+[16:22:50 12/12/2013] [Log] Backend started listening
+[16:22:51 12/12/2013] [Log] Frontend request for index.html received from 127.0.0.1
+[16:22:56 12/12/2013] [Log] Frontend Server Starting on port 80
+[16:22:56 12/12/2013] [Log] Frontend started listening
+[16:22:56 12/12/2013] [Log] Backend started listening
+[16:22:56 12/12/2013] [Log] Backend Server Starting on port 2121
+[16:22:59 12/12/2013] [Log] Backend request for nd\index.html received from 127.0.0.1
+[16:23:18 12/12/2013] [Log] Backend Server Starting on port 2121
+[16:23:18 12/12/2013] [Log] Backend started listening
+[16:23:20 12/12/2013] [Log] Backend request for nd\index.html received from 127.0.0.1
+[16:24:49 12/12/2013] [Log] Frontend Server Starting on port 80
+[16:24:49 12/12/2013] [Log] Frontend started listening
+[16:24:51 12/12/2013] [Log] Frontend request for index.html received from 127.0.0.1
+[16:24:59 12/12/2013] [Log] Frontend Server Starting on port 80
+[16:24:59 12/12/2013] [Log] Frontend started listening
+[16:25:00 12/12/2013] [Log] Frontend request for index.html received from 127.0.0.1
+[16:25:27 12/12/2013] [Log] Frontend Server Starting on port 80
+[16:25:27 12/12/2013] [Log] Started Listening
+[16:25:29 12/12/2013] [Log] Request for index.html received from 127.0.0.1
+[16:25:57 12/12/2013] [Log] Frontend Server Starting on port 80
+[16:25:57 12/12/2013] [Log] Started Listening
+[16:25:58 12/12/2013] [Log] Request for index.html received from 127.0.0.1
+[16:26:12 12/12/2013] [Log] Frontend Server Starting on port 80
+[16:26:12 12/12/2013] [Log] Started Listening
+[16:26:13 12/12/2013] [Log] Request for index.html received from 127.0.0.1
+[16:26:23 12/12/2013] [Log] Frontend Server Starting on port 80
+[16:26:23 12/12/2013] [Log] Started Listening
+[16:26:25 12/12/2013] [Log] Request for index.html received from 127.0.0.1
+[16:26:38 12/12/2013] [Log] Frontend Server Starting on port 80
+[16:26:38 12/12/2013] [Log] Started Listening
+[16:26:39 12/12/2013] [Log] Request for index.html received from 127.0.0.1
+[16:26:39 12/12/2013] [Log] Request for index.html from 127.0.0.1 fufilled
+[16:26:44 12/12/2013] [Log] Request for index.html received from 127.0.0.1
+[16:28:58 12/12/2013] [Log] Frontend Server Starting on port 80
+[16:28:58 12/12/2013] [Log] Frontend started Listening
+[16:29:00 12/12/2013] [Log] Frontend request for index.html received from 127.0.0.1
+[16:29:00 12/12/2013] [Log] Frontend request for index.html from 127.0.0.1 fufilled
+[16:29:01 12/12/2013] [Log] Frontend request for index.html received from 127.0.0.1
+[16:29:01 12/12/2013] [Log] Frontend request for index.html from 127.0.0.1 fufilled
+[16:29:02 12/12/2013] [Log] Frontend request for index.html received from 127.0.0.1
+[16:29:02 12/12/2013] [Log] Frontend request for index.html from 127.0.0.1 fufilled
+[16:29:02 12/12/2013] [Log] Frontend request for index.html received from 127.0.0.1
+[16:29:02 12/12/2013] [Log] Frontend request for index.html from 127.0.0.1 fufilled
+[16:29:02 12/12/2013] [Log] Frontend request for index.html received from 127.0.0.1
+[16:29:02 12/12/2013] [Log] Frontend request for index.html from 127.0.0.1 fufilled
+[16:29:31 12/12/2013] [Log] Frontend Server Starting on port 80
+[16:29:31 12/12/2013] [Log] Frontend started Listening
+[16:29:31 12/12/2013] [Log] Backend Server Starting on port 2121
+[16:29:32 12/12/2013] [Log] Backend started listening
+[16:29:33 12/12/2013] [Log] Backend request for nd\index.html received from 127.0.0.1
+[16:29:48 12/12/2013] [Log] Frontend Server Starting on port 80
+[16:29:48 12/12/2013] [Log] Frontend started Listening
+[16:29:48 12/12/2013] [Log] Backend Server Starting on port 2121
+[16:29:48 12/12/2013] [Log] Backend started listening
+[16:29:49 12/12/2013] [Log] Backend request for nd\index.html received from 127.0.0.1
+[16:30:00 12/12/2013] [Log] Frontend Server Starting on port 80
+[16:30:00 12/12/2013] [Log] Frontend started Listening
+[16:30:06 12/12/2013] [Log] Frontend request for index.html received from 127.0.0.1
+[16:30:13 12/12/2013] [Log] Frontend Server Starting on port 80
+[16:30:13 12/12/2013] [Log] Frontend started Listening
+[16:30:15 12/12/2013] [Log] Frontend request for index.html received from 127.0.0.1
+[16:30:50 12/12/2013] [Log] Backend Server Starting on port 2121
+[16:30:50 12/12/2013] [Log] Backend started listening
+[16:31:04 12/12/2013] [Log] Backend request for nd\index.html received from 127.0.0.1
+[16:31:44 12/12/2013] [Log] Backend Server Starting on port 2121
+[16:31:44 12/12/2013] [Log] Backend started listening
+[16:31:45 12/12/2013] [Log] Backend request for ndex.html received from 127.0.0.1
+[16:32:05 12/12/2013] [Log] Backend Server Starting on port 2121
+[16:32:05 12/12/2013] [Log] Backend started listening
+[16:32:06 12/12/2013] [Log] Backend request for index.html received from 127.0.0.1
+[16:32:55 12/12/2013] [Log] Backend Server Starting on port 2121
+[16:32:56 12/12/2013] [Log] Backend started listening
+[16:32:57 12/12/2013] [Log] Backend request for bke\index.html received from 127.0.0.1
+[16:33:33 12/12/2013] [Log] Backend Server Starting on port 2121
+[16:33:33 12/12/2013] [Log] Backend started listening
+[16:33:35 12/12/2013] [Log] Backend request for bke\non.html received from 127.0.0.1
+[16:33:35 12/12/2013] [Warn] Backend request for non.html from 127.0.0.1 could not be located
+[16:33:35 12/12/2013] [Log] Backend request for bke\favicon.ico received from 127.0.0.1
+[16:33:35 12/12/2013] [Warn] Backend request for favicon.ico from 127.0.0.1 could not be located
+[16:34:16 12/12/2013] [Log] Backend request for bke\index.html received from 127.0.0.1
+[16:34:48 12/12/2013] [Log] Backend Server Starting on port 2121
+[16:34:48 12/12/2013] [Log] Backend started listening
+[16:34:48 12/12/2013] [Log] Backend request for bke\index.html received from 127.0.0.1
+[16:35:08 12/12/2013] [Log] Frontend Server Starting on port 80
+[16:35:08 12/12/2013] [Log] Frontend started Listening
+[16:35:11 12/12/2013] [Log] Frontend request for index.html received from 127.0.0.1
+[16:36:55 12/12/2013] [Log] Frontend Server Starting on port 80
+[16:36:55 12/12/2013] [Log] Frontend started Listening
+[16:36:57 12/12/2013] [Log] Frontend request for index.html received from 127.0.0.1
+[16:36:57 12/12/2013] [Log] Frontend request for index.html from 127.0.0.1 fufilled
+[16:37:11 12/12/2013] [Log] Frontend Server Starting on port 80
+[16:37:11 12/12/2013] [Log] Frontend started Listening
+[16:37:18 12/12/2013] [Log] Frontend Server Starting on port 80
+[16:37:18 12/12/2013] [Log] Frontend started Listening
+[16:37:18 12/12/2013] [Log] Backend Server Starting on port 2121
+[16:37:18 12/12/2013] [Log] Backend started listening
+[16:37:21 12/12/2013] [Log] Frontend request for index.html received from 127.0.0.1
+[16:37:21 12/12/2013] [Log] Frontend request for index.html from 127.0.0.1 fufilled
+[16:37:36 12/12/2013] [Log] Frontend request for index.html received from 127.0.0.1
+[16:37:36 12/12/2013] [Log] Frontend request for index.html from 127.0.0.1 fufilled
+[16:37:39 12/12/2013] [Log] Backend request for bke\index.html received from 127.0.0.1
+[16:37:39 12/12/2013] [Log] Backend request for index.html from 127.0.0.1 fufilled

@@ -5,7 +5,7 @@ var url = require("url");
 var path = require('path');
 var uptime = 0;
 
-function start(port,debug) {
+function start(port) {
         log.log("Frontend Server Starting on port "+port);
         var ports = port;
         exports.ports = ports;
@@ -32,7 +32,7 @@ function start(port,debug) {
                                         return;  
                                 }
                                 response.writeHead(200);  
-                                response.write(file, fname.substring(fname.length-4, fname.length), "binary");  
+                                response.write(file, "binary");  
                                 response.end();  
                                 log.log("Frontend request for " + fname + " from "+request.connection.remoteAddress+" fufilled");
                         });  
@@ -46,7 +46,7 @@ function start(port,debug) {
         }
         
         http.createServer(onRequest).listen(port);
-        log.log("Frontend started listening");
+        log.log("Frontend started Listening");
         setInterval(function(){uptime++;}, 1000);
 }
 

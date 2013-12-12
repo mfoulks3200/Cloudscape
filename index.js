@@ -6,4 +6,6 @@ var debug = true; //Print more information to the console more often
 
 //  -----End Configuration Options-----
 var frontend = require("./frontend")
+var backend = require("./backend")
 frontend.start(frontendPort, debug)
+backend.start(backendendPort, debug)
