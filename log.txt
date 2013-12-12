@@ -141,3 +141,11 @@
 [16:37:36 12/12/2013] [Log] Frontend request for index.html from 127.0.0.1 fufilled
 [16:37:39 12/12/2013] [Log] Backend request for bke\index.html received from 127.0.0.1
 [16:37:39 12/12/2013] [Log] Backend request for index.html from 127.0.0.1 fufilled
+[16:46:55 12/12/2013] [Log] Backend request for bke\index.html received from 127.0.0.1
+[16:46:55 12/12/2013] [Warn] Backend request for index.html from 127.0.0.1 could not be located
+[16:47:03 12/12/2013] [Log] Frontend Server Starting on port 80
+[16:47:03 12/12/2013] [Log] Frontend started Listening
+[16:47:03 12/12/2013] [Log] Backend Server Starting on port 2121
+[16:47:03 12/12/2013] [Log] Backend started listening
+[16:47:04 12/12/2013] [Log] Backend request for bckend\index.html received from 127.0.0.1
+[16:47:04 12/12/2013] [Log] Backend request for nd\index.html from 127.0.0.1 fufilled
