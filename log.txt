@@ -1,0 +1,2 @@
+[16:00:48 12/12/2013] [Log] Starting frontend server on port 80
+[16:00:49 12/12/2013] [Log] Started frontend server on port 80
