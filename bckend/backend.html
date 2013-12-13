@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cloudscape Management Panel</title>
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<style>
+
+			body{
+				background-color: #3498DB;
+			}
+
+			.titlebar{
+				position:fixed;
+				left:10px;
+				right:10px;
+				font-size:32pt;
+				padding-top:12px;
+				padding-bottom:12px;
+				background-color:white;
+				border-bottom-left-radius:10px;
+				border-bottom-right-radius:10px;
+				font-family:Sans-Serif;
+				margin-top:-10px;
+				color:#777;
+				animation: topbarslide 0.5s;
+				-webkit-animation: topbarslide 0.5s; /* Safari and Chrome */
+				z-index:1;
+			}
+
+			@keyframes topbarslide
+			{
+			0%   {margin-top:-100px;opacity:0;}
+			100% {margin-top:-10px;opacity:1;}
+			}
+
+			@-webkit-keyframes topbarslide /* Safari and Chrome */
+			{
+			0%   {margin-top:-100px;opacity:0;}
+			100% {margin-top:-10px;opacity:1;}
+			}
+
+			.maincontainer{
+				position:fixed;
+				top:100px;
+				left:225px;
+				bottom:20px;
+				right:10px;
+				border-radius: 10px;
+				background-color: #fff;
+				color:#777;
+				padding:20px;
+				font-family:Sans-Serif;
+				animation: containerslide 0.5s;
+				-webkit-animation: containerslide 0.5s; /* Safari and Chrome */
+				z-index:1;
+			}
+
+			@keyframes containerslide
+			{
+			0%   {margin-top:200px;opacity:0;}
+			100% {margin-left:0px;opacity:1;}
+			}
+
+			@-webkit-keyframes containerslide /* Safari and Chrome */
+			{
+			0%   {margin-top:200px;opacity:0;}
+			100% {margin-left:0px;opacity:1;}
+			}
+
+			.sidebar{
+				position:fixed;
+				top:100px;
+				left:0;
+				bottom:20px;
+				width:200px;
+				background-color:white;
+				border-top-right-radius:10px;
+				border-bottom-right-radius:10px;
+				font-family:Sans-Serif;
+				color:#777;
+				animation: sidebarslide 0.5s;
+				-webkit-animation: sidebarslide 0.5s; /* Safari and Chrome */
+				z-index:1;
+			}
+
+			@keyframes sidebarslide
+			{
+			0%   {margin-left:-300px;opacity:0;}
+			100% {margin-left:0px;opacity:1;}
+			}
+
+			@-webkit-keyframes sidebarslide /* Safari and Chrome */
+			{
+			0%   {margin-left:-300px;opacity:0;}
+			100% {margin-left:0px;opacity:1;}
+			}
+
+			ul {
+			    margin: 0;
+			    padding: 0;
+			    list-style:none;
+			    width:100%;
+			}
+
+			li {
+			padding-top:5px;
+			color: #777;
+			width:100%;
+			height:30px;
+			float: left;
+			margin: 0;
+			padding-bottom: 10px;
+			font-size:20pt;
+			}
+
+			li a {
+			    display: block;
+			    width: 120px;
+			    height: 30px;
+			    padding-top:20px;
+			}
+
+			.hoverlink{
+				background-color:#fff;
+				color:#777;
+				cursor:pointer;
+				animation: unhoverlink 0.3s;
+				-webkit-animation: unhoverlink 0.3s; /* Safari and Chrome */
+			}
+
+			.hoverlink:hover{
+				background-color:#3498DB;
+				color:#fff;
+				cursor:pointer;
+				animation: hoverlink 0.3s;
+				-webkit-animation: hoverlink 0.3s; /* Safari and Chrome */
+			}
+
+			@keyframes hoverlink
+			{
+			0%   {background-color:#fff;color:#777;}
+			100% {background-color:#3498DB;color:#fff;}
+			}
+
+			@-webkit-keyframes hoverlink /* Safari and Chrome */
+			{
+			0%   {background-color:#fff;color:#777;}
+			100% {background-color:#3498DB;color:#fff;}
+			}
+
+			@keyframes unhoverlink
+			{
+			0% {background-color:#3498DB;color:#fff;}
+			100%{background-color:#fff;color:#777;}
+			}
+
+			@-webkit-keyframes unhoverlink /* Safari and Chrome */
+			{
+			0% {background-color:#3498DB;color:#fff;}
+			100%{background-color:#fff;color:#777;}
+			}
+
+			#cloud {
+				width: 350px; height: 120px;
+				
+				/*background: #f2f9fe;
+				background: linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+				background: -webkit-linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+				background: -moz-linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+				background: -ms-linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+				background: -o-linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);*/
+
+				background: linear-gradient(top, #3BA7F0 5%, #3BA7F0 100%);
+				background: -webkit-linear-gradient(top, #3BA7F0 5%, #3BA7F0 100%);
+				background: -moz-linear-gradient(top, #3BA7F0 5%, #3BA7F0 100%);
+				background: -ms-linear-gradient(top, #3BA7F0 5%, #3BA7F0 100%);
+				background: -o-linear-gradient(top, #3BA7F0 5%, #3BA7F0 100%);
+				
+				border-radius: 100px;
+				-webkit-border-radius: 100px;
+				-moz-border-radius: 100px;
+				
+				position: relative;
+				margin: 120px auto 20px;
+			}
+
+			#cloud:after, #cloud:before {
+				content: '';
+				position: absolute;
+				background: #3BA7F0;
+				z-index: -1
+			}
+
+			#cloud:after {
+				width: 100px; height: 100px;
+				top: -50px; left: 50px;
+				
+				border-radius: 100px;
+				-webkit-border-radius: 100px;
+				-moz-border-radius: 100px;
+			}
+
+			#cloud:before {
+				width: 180px; height: 180px;
+				top: -90px; right: 50px;
+				
+				border-radius: 200px;
+				-webkit-border-radius: 200px;
+				-moz-border-radius: 200px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="titlebar">&nbsp;Cloudscape Management Panel</div>
+		<div class="sidebar">
+			<ul>
+				<li class="hoverlink" style="border-top-right-radius:10px;">&nbsp;Dashboard</li>
+				<li class="hoverlink">&nbsp;Timeline</li>
+				<li class="hoverlink">&nbsp;Files</li>
+				<li class="hoverlink">&nbsp;Users</li>
+				<li class="hoverlink">&nbsp;Settings</li>
+			</ul>
+		</div>
+		<div class="maincontainer">Ajaxy Content Goes Here</div>
+		<div class="cloud"><div id = "cloud"><span class='shadow'></span></div></div>
+	</body>
+</html>
